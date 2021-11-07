@@ -1,0 +1,155 @@
+@font-face { font-family: genshin; src: url('/fonts/Genshin.ttf'); } 
+
+body {
+    margin:0px;
+    background-color:rgb(46, 46, 56);
+}
+h1{
+    color:rgb(0,48,102);
+    font-family: genshin;
+    font-size:40px;
+}
+h2 {
+    font-family: genshin;
+}
+h3 {
+    font-family: genshin;
+}
+p {
+    text-align:justify;
+}
+
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:rgba(4, 22, 46, 0.6);
+    /*rgb(187,172,206);*/
+}
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:rgb(24, 24, 29);
+    color:#fff;
+    font-family: genshin;
+}
+
+nav a{
+    display: inline-block;
+    padding-inline: 3%;
+    color:#fff;
+    font-family: genshin;
+    text-decoration: none;
+    border-right: 2px solid #fff;
+}
+
+footer{
+    padding:50px;
+    background-color:rgba(81, 81, 102);
+    color:#fff;
+}
+
+.title-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:150px;
+}
+
+.chara-name{
+    height:90px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+.chara-name h1{
+    margin:auto;
+    padding: 20px;
+}
+
+.center-page {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background-color:#fff;
+    border-radius: 15px;
+    width: 900px;
+}
+@media screen and ( max-width: 1020px ){
+    .center-page{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: auto;
+    }
+}
+
+.section {
+    padding: 10px;
+    background-color:#fff;
+    border: 5px double rgb(0,48,102);
+    border-radius: 10px;
+}
+
+.chara-profile {
+    padding: 0px;
+    width: 250px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.chara-profile img {
+    padding: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.profile-section{
+    border: 1px solid rgb(0,48,102);
+}
+
+.profile-title{
+    background-color: rgb(179, 204, 230);
+    text-align: center;
+}
+
+.chara-card {
+    width:200px;
+    margin:10px;
+}
+
+.chara-img {
+    width:200px;
+    height:200px;
+}
+
+.chara-quote {
+    text-align:center;
+    font-style: italic;
+}
+
+.yt {
+    position: relative;
+    display: block;
+    width:90%;
+    height: 0;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0% 0% 56.25%; /* 16:9 ratio */
+    overflow: hidden;
+}
+
+.yt iframe{
+    position: absolute;
+    top: 0; 
+    bottom: 0; 
+    left: 0;
+    width:100%;
+    height:100%;
+    border: 0;
+}
